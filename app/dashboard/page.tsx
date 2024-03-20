@@ -4,6 +4,8 @@ import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import { lusitana } from '@/app/ui/fonts';
 import { fetchCardData, fetchRevenue, fetchLatestInvoices } from '@/app/lib/data';
 
+// export const dynamic = "force-dynamic"; // with this, no need noStore() in data.ts
+
 // route: "/dashboard"
 export default async function Page() {
     const data = await fetchCardData();
