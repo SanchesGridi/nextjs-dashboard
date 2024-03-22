@@ -9,7 +9,6 @@ import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton  } from '@/
 
 // route: "/dashboard"
 export default async function Page() {
-    // no code in chapter 10
     return (
         <main>
             <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
