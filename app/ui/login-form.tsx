@@ -7,7 +7,6 @@ import { Button } from './button';
 import { useFormState, useFormStatus } from 'react-dom';
 import { authenticate } from '@/app/lib/actions';
 
-// test deploy message (remove later)
 export default function LoginForm() {
     const [errorMessage, dispatch] = useFormState(authenticate, undefined);
 

@@ -6,10 +6,15 @@ import { lusitana } from '@/app/ui/fonts';
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { fetchInvoicesPages } from '@/app/lib/data';
 import { Suspense } from 'react';
+import { Metadata } from 'next';
 
 type InternalSearchParams = {
     searchParams?: { query?: string; page?: string; };
 }
+
+export const metadata: Metadata = {
+    title: 'Invoices'
+};
 
 // route: "/dashboard/invoices"
 export default async function Page({ searchParams }: InternalSearchParams) {
