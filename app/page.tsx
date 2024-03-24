@@ -5,8 +5,6 @@ import Image from 'next/image';
 import styles from '@/app/ui/home.module.css';
 import { lusitana } from '@/app/ui/fonts';
 
-// test
-
 // route: "/"
 export default function Page() {
     return (
